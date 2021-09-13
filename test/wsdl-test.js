@@ -164,6 +164,14 @@ describe('wsdl-tests', function() {
       });
     });
 
+    it('should find element refs with empty prefix', function (done) {
+      soap.createClient('https://wocastestsrvwa.woonstadrotterdam.nl/k2wservices.wsdl', {strict: true}, function(err, client) {
+        assert.ok(!err);
+        assert.deepEqual(Object.keys(client.wsdl.definitions.schemas), ['']);
+        done();
+      });
+    });
+
     //revisit -  If client class is modified, client.describe() will change.. it's pain to keep changing the 'expected'
     //output. What's the value of this test? Do we need this test? Skipping for now even though test passes currently.
     it.skip('should load same namespace from included xsd', function (done) {

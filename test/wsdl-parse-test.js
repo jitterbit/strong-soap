@@ -85,7 +85,7 @@ describe(__filename, function() {
       function(err, def) {
         var schemas = def.definitions.schemas;
         assert.deepEqual(Object.keys(schemas), [
-          'undefined',
+          '',
           'http://company.de/cake/synonymelisten/webservice',
           'http://company.de/cake/synonymelisten',
           'http://company.de/cake/synonymelisten/webservice/exceptions'

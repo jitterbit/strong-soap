@@ -223,11 +223,11 @@ class WSDL {
 
       if (wsdl.definitions instanceof Definitions) {
         // Set namespace for included schema that does not have targetNamespace
-        if (undefined in wsdl.definitions.schemas) {
-          if (include.namespace != null) {
+        if ('' in wsdl.definitions.schemas) {
+          if (include.namespace !== null) {
             // If A includes B and B includes C, B & C can both have no targetNamespace
-            wsdl.definitions.schemas[include.namespace] = wsdl.definitions.schemas[undefined];
-            delete wsdl.definitions.schemas[undefined];
+            wsdl.definitions.schemas[include.namespace] = wsdl.definitions.schemas[''];
+            delete wsdl.definitions.schemas[''];
           }
         }
         _.mergeWith(self.definitions, wsdl.definitions, function (a, b) {

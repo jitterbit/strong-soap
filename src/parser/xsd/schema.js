@@ -82,6 +82,10 @@ class Schema extends XSDElement {
     }
   }
 
+  getTargetNamespace() {
+    return this.$targetNamespace || '';
+  }
+
   postProcess(defintions) {
     var visited = new Set();
     visited.add(this);
