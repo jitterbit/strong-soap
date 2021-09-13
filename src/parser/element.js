@@ -191,14 +191,17 @@ class Element {
     var nsURI;
     if (qname.prefix === 'xml') return null;
     if (qname.prefix) nsURI = this.getNamespaceURI(qname.prefix);
-    else nsURI = this.getTargetNamespace();
     qname.nsURI = nsURI;
+    var schema = schemas[qname.nsURI || ''];
     var name = qname.name;
     if (nsURI === helper.namespaces.xsd &&
       (elementType === 'simpleType' || elementType === 'type')) {
       return xsd.getBuiltinType(name);
     }
-    var schema = schemas[nsURI];
+    if (!schema) {
+      nsURI = this.getTargetNamespace();
+      schema = schemas[nsURI];
+    }
     if (!schema) {
       debug('Schema not found: %s (%s)', qname, elementType);
       return null;

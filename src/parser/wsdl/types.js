@@ -21,7 +21,7 @@ class Types extends WSDLElement {
 
     if (child instanceof Schema) {
 
-      var targetNamespace = child.$targetNamespace;
+      var targetNamespace = child.$targetNamespace || '';
 
       if (!this.schemas.hasOwnProperty(targetNamespace)) {
         this.schemas[targetNamespace] = child;
