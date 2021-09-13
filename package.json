@@ -31,7 +31,6 @@
     "lib": "./lib"
   },
   "scripts": {
-    "postinstall": "husky install",
     "build": "babel src --source-maps --out-dir=lib",
     "prepublishOnly": "pinst --disable && npm run build",
     "postpublish": "pinst --enable",
