@@ -1,18 +1,368 @@
+2023-05-15, Version 3.5.1
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency semver to ^7.5.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.40.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.3 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.21.8 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.21.5 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.39.0 (renovate[bot])
+
+ * chore: update dependency semver to ^7.5.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.1 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.0 (renovate[bot])
+
+
+2023-04-13, Version 3.5.0
+=========================
+
+ * chore: update dependency semver to ^7.4.0 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.38.0 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.21.4 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.37.0 (renovate[bot])
+
+ * chore: update dependency @commitlint/cli to ^17.5.1 (renovate[bot])
+
+ * chore: update dependency @commitlint/cli to ^17.5.0 (renovate[bot])
+
+ * chore: update dependency sax to ^1.2.4 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.21.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.36.0 (renovate[bot])
+
+ * chore: update dependency readable-stream to ^3.6.2 (renovate[bot])
+
+ * refactor: remove reassigning passed value on date formatting functions (Scrib3r)
+
+ * refactor: simplify passing option parameter to xmlDateOrTime (Scrib3r)
+
+ * test: create some additional tests for date parsing (Scrib3r)
+
+ * fix: fix broken tests (Scrib3r)
+
+ * fix: fix checking for undefined options in toXmlDate (Scrib3r)
+
+ * feat: support additional parameter for optional date timezone (Scrib3r)
+
+
+2023-03-08, Version 3.4.3
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * fix: ref in attributeGroup not working (Mateusz Stawecki)
+
+ * chore: update dependency eslint to ^8.35.0 (renovate[bot])
+
+ * chore: update dependency readable-stream to ^3.6.1 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.21.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.4 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.34.0 (renovate[bot])
+
+
+2023-01-30, Version 3.4.2
+=========================
+
+ * chore: update dependency eslint to ^8.33.0 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.32.0 (renovate[bot])
+
+ * chore: update dependency glob to ^8.1.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.2 (renovate[bot])
+
+ * chore: update dependency @commitlint/cli to ^17.4.1 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.20.12 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.0 (renovate[bot])
+
+ * chore: update dependency husky to ^8.0.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.31.0 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.20.7 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.30.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.29.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.28.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.3.0 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.20.5 (renovate[bot])
+
+ * chore: use node.js 16 for commit lint GH action (dhmlau)
+
+ * chore: update dependency jshint to ^2.13.6 (renovate[bot])
+
+ * chore: update dependency husky to ^8.0.2 (renovate[bot])
+
+
+2022-11-07, Version 3.4.1
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.27.0 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.20.2 (renovate[bot])
+
+ * chore: update dependency glob to v8 (renovate[bot])
+
+ * chore: update dependency uuid to v9 (renovate[bot])
+
+ * chore: update dependency xml-crypto to v3 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.2.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.26.0 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.19.6 (renovate[bot])
+
+ * chore: update dependency @babel/preset-env to ^7.19.4 (renovate[bot])
+
+ * chore: update dependency express to ^4.18.2 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.25.0 (renovate[bot])
+
+ * chore: update dependency semver to ^7.3.8 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.19.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.24.0 (renovate[bot])
+
+ * chore: update dependency doctoc to ^2.2.1 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.19.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.23.1 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.19.0 (renovate[bot])
+
+ * chore: update commitlint monorepo (renovate[bot])
+
+ * chore: update dependency eslint to ^8.23.0 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.18.13 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.22.0 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.18.10 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.21.0 (renovate[bot])
+
+ * chore: update babel monorepo to ^7.18.9 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.20.0 (renovate[bot])
+
+ * chore: update dependency jshint to ^2.13.5 (renovate[bot])
+
+ * chore: update dependency xml-crypto to ^2.1.4 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.19.0 (renovate[bot])
+
+ * fix: return a 415 if the call has no Content-Type in the headers (François Cabrol)
+
+ * chore: update babel monorepo to ^7.18.6 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.0.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.18.0 (renovate[bot])
+
+ * chore: update dependency @babel/core to ^7.18.5 (Renovate Bot)
+
+ * chore: update dependency async to ^3.2.4 (Renovate Bot)
+
+ * chore: lock file maintenance (Renovate Bot)
+
+ * chore: update dependency eslint to ^8.17.0 (Renovate Bot)
+
+ * chore: update commitlint monorepo to ^17.0.2 (Renovate Bot)
+
+ * chore: update babel monorepo to ^7.18.2 (Renovate Bot)
+
+ * chore: update dependency @commitlint/cli to ^17.0.1 (Renovate Bot)
+
+ * chore: update dependency diff to ^5.1.0 (Renovate Bot)
+
+ * chore: update dependency eslint to ^8.16.0 (Renovate Bot)
+
+ * chore: update babel monorepo to ^7.18.0 (Renovate Bot)
+
+ * chore: update commitlint monorepo to v17 (Renovate Bot)
+
+ * chore: update babel monorepo to ^7.17.12 (Renovate Bot)
+
+ * chore: update dependency glob to ^7.2.3 (Renovate Bot)
+
+ * chore: update dependency @commitlint/cli to ^16.3.0 (Renovate Bot)
+
+ * chore: update dependency glob to ^7.2.2 (Renovate Bot)
+
+ * chore: update dependency husky to ^8.0.1 (Renovate Bot)
+
+ * chore: update dependency husky to v8 (Renovate Bot)
+
+ * chore: update dependency eslint to ^8.15.0 (Renovate Bot)
+
+ * chore: update dependency doctoc to ^2.2.0 (Renovate Bot)
+
+ * chore: update dependency eslint to v8 (Renovate Bot)
+
+ * chore: update dependency express to ^4.18.1 (Renovate Bot)
+
+ * chore: update babel monorepo to ^7.17.10 (Renovate Bot)
+
+ * chore: update commitlint monorepo to ^16.2.4 (Renovate Bot)
+
+ * chore: update github/codeql-action action to v2 (Renovate Bot)
+
+ * chore: update dependency express-ntlm to v2.6.2 (Renovate Bot)
+
+ * chore: update dependency express to ^4.18.0 (Renovate Bot)
+
+ * chore: update dependency semver to ^7.3.7 (Renovate Bot)
+
+ * chore: update dependency semver to ^7.3.6 (Renovate Bot)
+
+ * chore: update dependency @babel/core to ^7.17.9 (Renovate Bot)
+
+ * docs: add SECURITY.md (Diana Lau)
+
+ * chore: update dependency diff to v5 (Renovate Bot)
+
+ * chore: update commitlint monorepo (Renovate Bot)
+
+ * chore: update actions/checkout action to v3 (Renovate Bot)
+
+ * chore: update dependency pinst to v3 (Renovate Bot)
+
+ * chore: update actions/setup-node action to v3 (Renovate Bot)
+
+ * chore: update dependency jshint to ^2.13.4 (Renovate Bot)
+
+ * chore: update dependency express-ntlm to v2.6.1 (Renovate Bot)
+
+ * chore: update dependency eslint to ^7.32.0 (Renovate Bot)
+
+ * chore: update babel monorepo (Renovate Bot)
+
+ * chore: update dependency uuid to ^8.3.2 (Renovate Bot)
+
+ * chore: update dependency should to ^13.2.3 (Renovate Bot)
+
+ * chore: update dependency semver to ^7.3.5 (Renovate Bot)
+
+ * chore: update dependency request to ^2.88.2 (Renovate Bot)
+
+ * chore: update dependency selectn to ^1.1.2 (Renovate Bot)
+
+ * chore: update dependency mocha to ^9.2.2 (Renovate Bot)
+
+ * chore: update dependency husky to ^7.0.4 (Renovate Bot)
+
+ * chore: update dependency lodash to ^4.17.21 (Renovate Bot)
+
+ * chore: update dependency glob to ^7.2.0 (Renovate Bot)
+
+ * chore: update dependency express to ^4.17.3 (Renovate Bot)
+
+ * chore: update dependency doctoc to ^2.1.0 (Renovate Bot)
+
+ * chore: update dependency diff to ^4.0.2 (Renovate Bot)
+
+ * chore: update dependency debug to ^4.3.4 (Renovate Bot)
+
+ * chore: update dependency coveralls to ^3.1.1 (Renovate Bot)
+
+ * chore: update dependency colors to ^1.4.0 (Renovate Bot)
+
+ * chore: update dependency underscore to 1.12.1 [security] (Renovate Bot)
+
+ * chore: update dependency nanoid to 3.1.31 [security] (Renovate Bot)
+
+ * chore: update dependency async to ^3.2.3 (Renovate Bot)
+
+ * ci: use shared renovate config (Rifa Achrinza)
+
+ * chore(deps): add renovate config (Rifa Achrinza)
+
+ * docs: update coc (Diana Lau)
+
+ * docs: add code of conduct (Diana Lau)
+
+
+2022-02-19, Version 3.4.0
+=========================
+
+ * v3.4.0  * chore: move babel to devDependency (s100)  * fix(test): cover wsdl redirect issue by test (Elsaid Achraf)  * fix: fixed import uri when wsdl request is redirected (Elsaid Achraf)  * ci: fix travis (Rifa Achrinza)  * ci: pin NPM major version (Rifa Achrinza)  * chore: add @achrinza to codeowners (Diana Lau) (Rifa Achrinza)
+
+ * chore: move babel to devDependency (s100)
+
+ * fix(test): cover wsdl redirect issue by test (Elsaid Achraf)
+
+ * fix: fixed import uri when wsdl request is redirected (Elsaid Achraf)
+
+ * ci: fix travis (Rifa Achrinza)
+
+ * ci: pin NPM major version (Rifa Achrinza)
+
+ * chore: add @achrinza to codeowners (Diana Lau)
+
+
 2021-09-13, Version 3.3.1
 =========================
 
- * fix: fixed installing the library from npm (Aliaksandr Krasitski)
+ * fix: fixed installing the library from npm (push1st1k)
+
 
 2021-09-13, Version 3.3.0
 =========================
 
- * Typo in example server code. (Sam Graham)
- 
+ * chore: bump xml-crypto 2.1.3 (push1st1k)
+
+ * ci: restrict GITHUB_TOKEN permissions (Rifa Achrinza)
+
+ * ci: fix travis ci arch (Rifa Achrinza)
+
+ * docs: add `ClientSSLSecurityPFX` to readme (luanraithz)
+
+ * ci: enable windows testing (Rifa Achrinza)
+
+ * ci: restrict branch builds to master (Rifa Achrinza)
+
  * chore: enable sourcemaps (Rifa Achrinza)
 
- * docs: add `ClientSSLSecurityPFX` to readme (Luan Raithz Machado)
+ * ci: migrate to new CI (Rifa Achrinza)
 
- * chore: bump xml-crypto 2.1.3 (Aliaksandr Krasitski)
+ * Typo in example server code. (Sam Graham)
+
+ * chore: move repo to loopbackio org (Diana Lau)
+
 
 2021-04-22, Version 3.2.1
 =========================

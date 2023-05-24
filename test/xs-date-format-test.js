@@ -55,6 +55,15 @@ describe('xs-date-format-tests', function() {
       assert.equal(xmlDate, '2019-03-27Z');
     });
 
+    it('converts date to xml date without Z', function() {
+      var xmlDate = xmlHandler.toXmlDate(inputDate, {
+        timezone: {
+          enabled: false,
+        },
+      });
+      assert.equal(xmlDate, '2019-03-27');
+    });
+
     it('converts date to xml time', function () {
       var xmlTime = xmlHandler.toXmlTime(inputDate);
       assert.equal(xmlTime, '04:01:01.000Z');
@@ -69,6 +78,16 @@ describe('xs-date-format-tests', function() {
       var xmlDate = xmlHandler.toXmlDate(inputDateStr);
       assert.equal(xmlDate, '2019-03-27Z');
     });
+
+    it('converts string to xml date without Z', function() {
+      var xmlDate = xmlHandler.toXmlDate(inputDateStr, {
+        timezone: {
+          enabled: false,
+        },
+      });
+      assert.equal(xmlDate, '2019-03-27');
+    });
+
 
     it('converts string to xml time', function () {
       var xmlTime = xmlHandler.toXmlTime(inputDateStr);
