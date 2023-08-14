@@ -16,7 +16,7 @@
     "selectn": "^1.1.2",
     "strong-globalize": "^6.0.5",
     "uuid": "^9.0.0",
-    "xml-crypto": "^3.0.1",
+    "xml-crypto": "^3.2.0",
     "xmlbuilder": "^10.1.1"
   },
   "repository": {
@@ -40,18 +40,18 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
-    "@babel/core": "^7.21.8",
-    "@babel/preset-env": "^7.21.5",
-    "@commitlint/cli": "^17.6.3",
-    "@commitlint/config-conventional": "^17.6.3",
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "async": "^3.2.4",
     "colors": "^1.4.0",
     "coveralls": "^3.1.1",
     "diff": "^5.1.0",
     "doctoc": "^2.2.1",
     "duplexer": "^0.1.2",
-    "eslint": "^8.41.0",
+    "eslint": "^8.47.0",
     "eslint-config-google": "^0.14.0",
     "express": "^4.18.2",
     "express-ntlm": "2.6.2",
@@ -63,9 +63,9 @@
     "nyc": "^15.1.0",
     "pinst": "^3.0.0",
     "readable-stream": "^3.6.2",
-    "semver": "^7.5.1",
+    "semver": "^7.5.4",
     "should": "^13.2.3",
-    "timekeeper": "^2.2.0"
+    "timekeeper": "^2.3.1"
   },
   "author": "IBM Corp."
 }
