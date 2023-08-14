@@ -54,7 +54,7 @@ describe(__filename, function () {
         assert.ok(!err);
         const { schemas } = def.definitions;
         assert.deepEqual(Object.keys(schemas), [
-          'undefined',
+          '',
           'http://www.Dummy.com/Common/Types',
           'http://www.Dummy.com/Name/Types'
         ]);
