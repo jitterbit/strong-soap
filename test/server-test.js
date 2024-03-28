@@ -297,7 +297,7 @@ describe('SOAP Server', function() {
       client.IsValidPrice({TradePrice: {price: 50000 }}, function(err, result) {
         // node V3.x+ reports addresses as IPV6
         var addressParts = lastReqAddress.split(':');
-        assert.equal(addressParts[(addressParts.length - 1)], '1');
+        assert.equal(addressParts[(addressParts.length - 1)], '127.0.0.1');
         done();
       });
     });
