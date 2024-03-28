@@ -1,6 +1,6 @@
 {
   "name": "@jitterbit/strong-soap",
-  "version": "4.0.1",
+  "version": "4.0.4",
   "description": "A minimal node SOAP client",
   "engines": {
     "node": "18 || 20 || 21"
