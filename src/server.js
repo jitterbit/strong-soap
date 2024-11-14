@@ -198,7 +198,8 @@ class Server extends Base {
 
     try {
       if (binding.style === 'rpc') {
-        operationName = Object.keys(body)[0];
+        operationName = (Object.keys(body)[0] === (self.wsdl.options.attributesKey || 'attributes') ?
+        Object.keys(body)[1] : Object.keys(body)[0]);
 
         self.emit('request', obj, operationName);
         if (headers)
@@ -214,8 +215,8 @@ class Server extends Base {
           style: 'rpc'
         }, req, callback);
       } else { //document style
-        var messageElemName = (Object.keys(body)[0] === 'attributes' ?
-          Object.keys(body)[1] : Object.keys(body)[0]);
+        var messageElemName = (Object.keys(body)[0] === (self.wsdl.options.attributesKey || 'attributes') ?
+        Object.keys(body)[1] : Object.keys(body)[0]);
         var pair = binding.topElements[messageElemName];
 
         var operationName, outputName;
@@ -325,8 +326,8 @@ class Server extends Base {
       self.xmlHandler.jsonToXml(envelope.body, nsContext, outputBodyDescriptor, result);
 
       self._envelope(envelope, includeTimestamp);
-      var message = envelope.body.toString({pretty: true});
-      var xml = envelope.doc.end({pretty: true});
+      var message = envelope.body.toString({pretty: self.wsdl.options.prettyResponse});
+      var xml = envelope.doc.end({pretty: self.wsdl.options.prettyResponse});
 
       debug('Server handleResult. xml: %s ', xml);
       callback(xml);
@@ -423,9 +424,8 @@ class Server extends Base {
     this.xmlHandler.jsonToXml(envelope.body, nsContext, faultDescriptor, error.Fault);
 
     self._envelope(envelope, includeTimestamp);
-    var message = envelope.body.toString({pretty: true});
-    var xml = envelope.doc.end({pretty: true});
-
+    var message = envelope.body.toString({pretty: self.wsdl.options.prettyResponse});
+    var xml = envelope.doc.end({pretty: self.wsdl.options.prettyResponse});
     debug('Server sendError. Response envelope: %s ', xml);
     callback(xml, statusCode);
   }
